@@ -1,0 +1,23 @@
+
+begin
+       numeric basic salary,gross salary,hra,da
+	   print("Enter the basic salary");
+	   input("basic salary")
+	   if(basic salary <= 10000) {
+	   hra = (67*basic salary)/100
+	   da=(78*basic salary)/100
+	   gross salary = hra+da+basic salary
+	   }
+	else  if(basic salary<=20000){
+	hra=(69*basic salary)/100
+	da=(79*basic salary)/100
+	gross salary=hra+da+basic salary
+	 }
+	else {
+	hra=(75*basic salary)/100
+	da=(85*basic salary)/100
+	gross salary=hra+da+basic salary
+	 print("gross salary");
+	}
+	 end
+	 
