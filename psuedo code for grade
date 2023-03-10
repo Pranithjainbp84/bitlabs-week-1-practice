@@ -1,0 +1,31 @@
+Begin
+    Numeric projectScore,internalScore, externalScore,total=0;
+    print("Enter project, external and internal score");
+      input projectScore
+      input externalScore
+      input internalScore
+       if(projectScore>=50 && externalScore>=50 && internalScore>=50) {
+                 total=(0.7*projectScore)+(0.2*externalScore)+(0.1*internalScore);
+                  if(total>=90) {
+                            print("A grade");
+                   }
+                    else if (total>=70) {
+                                 print("B grade");
+                      }
+                     else{
+                              print("C grade");
+                      }
+        }
+      else {
+                 if(projectScore<50){
+                              print("failed in project and score is ",projectScore);
+                   }
+                 if(externalScore<50){
+                              print("failed in External and score is ",externalScore);
+                   }
+                 if(internaltScore<50){
+                              print("failed in Internal and score is ",internalScore);
+                   }
+             
+             }
+			 end
