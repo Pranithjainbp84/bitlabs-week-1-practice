@@ -1,0 +1,23 @@
+
+begin
+    numeric user name,units,bill
+	print("Enter the user name");
+	input user name
+    print("Enter the number of units");
+	input units
+	if(units<=50){
+	bill = 4.20*units
+	}
+	else if ( units<=150){
+	bill=(4.20*50)+5.67*(unit-50)
+	}
+	else if(units <=250){
+	bill = (4.20*50)+(5.67*100)+8.90*(unit-150)
+	}
+	else {
+	bill = (4.20*50)+(5.67*100)+(8.90*100)+9.50*(unit-250)
+	print("the  bill is without gst", bill);
+	bill=bill+(bill*18)/100
+	print("the  bill is with gst", bill);
+	}
+	end
