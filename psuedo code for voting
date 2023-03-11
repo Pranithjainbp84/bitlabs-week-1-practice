@@ -1,0 +1,9 @@
+begin
+ numeric age
+ print("Enter age")
+ input age
+ if(age>=18)
+   print("Eligible for voting")
+ else
+   print("Not Eligible for voting")
+end
