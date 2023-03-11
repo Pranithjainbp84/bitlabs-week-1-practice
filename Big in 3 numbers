@@ -1,0 +1,14 @@
+begin
+ numeric num1,num2,num3
+ print("enter three number num1,num2,num3 to find big number")
+ input num1,num2,num3
+ if(num1>num2&&num1>num3){
+   print(num1,"is a big number");
+ }
+ else if(num2>num3){
+   print(num2,"is a big number");
+ }
+ else{
+  print(num2,"is a big number");
+ }
+end
