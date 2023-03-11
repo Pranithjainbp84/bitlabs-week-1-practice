@@ -1,0 +1,18 @@
+begin
+ numeric num=10
+ if(num>5)
+  {
+    if(num<10)
+    {
+      print("hi")
+    }
+    else
+    {
+      print(("hello")
+    }
+ }
+ else
+ {
+   print("bye")
+ }
+end
