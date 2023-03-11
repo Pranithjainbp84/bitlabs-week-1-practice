@@ -1,0 +1,14 @@
+begin
+   numeric num1,num2,sum,difference,product,division
+   print("Enter num1 and num2")
+   input num1
+   input num2
+   sum=num1+num2
+   difference=num1-num2
+   product=num1*num2
+   division=num1/num2
+   print("Addition is :",sum)
+   print("Subtraction is :",difference)
+   print("Multiplication is :",product)
+   print("Division is :",division)
+end
