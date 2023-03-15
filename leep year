@@ -1,0 +1,11 @@
+Begin
+numeric year 
+print("enter year",year)
+input year
+if (year%400==0 &&(year%4==0) ){
+print("year is a leap year");
+}
+else {
+print ("year is not a leap year");
+}
+end
