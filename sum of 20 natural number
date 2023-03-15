@@ -1,0 +1,10 @@
+begin
+numeric n=1,sum=0
+print("enter the number:")
+input n
+while(n<=20)
+{
+sum=sum+n;
+print(sum)
+}
+end
